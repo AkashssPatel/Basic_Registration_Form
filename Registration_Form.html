@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration</title>
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <form action="/Login_Page.html">
+        <fieldset>
+            <legend>Personal Information</legend>
+       <label > Name <sup>*</sup> <input type="text" name="name" required> </label> <br> <br> 
+       <label > Email <sup>*</sup> <input type="email" name="mail" required></label> <br>  <br>
+        Gender <sup>*</sup> <label > <input type="radio" name="abc" id="">Male </label>
+        <label > <input type="radio" name="abc" id="">Female </label>
+        <label > <input type="radio" name="abc" id="">Others </label> <br> <br>
+    
+        Courses <sup>*</sup> <input type="text" name="abc" list="Courses" id="" required>
+       <datalist id="Courses">
+           <option value="CSS"></option>
+           <option value="C Programming"></option>
+           <option value="Go"></option>
+           <option value="HTML"></option>
+           <option value="JAVA"></option>
+           <option value="JAVASCRIPT"></option>
+           <option value="PYTHON"></option>
+           <option value="MONGO DB"></option>
+           <option value="REACT JS"></option>
+           <option value="RUST"></option>
+           <option value="SPRING FRAMEWORK"></option>
+           <option value="TYPESCRIPT"></option>
+       </datalist> <br><br>
+
+       Country <sup>*</sup> <input type="text" name="CBA" list="country" id="" required>
+       <datalist id="country">
+           <option value="Afganisthan"></option>
+           <option value="Argentina"></option>
+           <option value="Australlia"></option>
+           <option value="Bangladesh"></option>
+           <option value="Butan"></option>
+           <option value="Brazil"></option>
+           <option value="Colombia"></option>
+           <option value="Denmark"></option>
+           <option value="Egypt"></option>
+           <option value="France"></option>
+           <option value="Germany"></option>
+           <option value="India"></option>
+             
+       </datalist>
+
+    </fieldset> <br> <br>
+
+    <fieldset>
+        <legend>Work Experience <sup>*</sup></legend>
+        <textarea name="name" id="" cols="50" rows="10" required></textarea>
+    </fieldset> <br> <br>
+
+    <fieldset>
+        <legend>College Information </legend> <br>
+ College Name <sup>*</sup> <input type="text" name="A" id=""><br> <br>
+ Qualification <sup>*</sup> <input type="text" name="A" id=""> <br> <br>
+ Year Of Studing <sup>*</sup>  <input type="number" name="A" id="">
+ </fieldset>    <br><br>
+    <button type="submit" > <img src="/Images/Submit2.jpg" height="40" width="40"></button> 
+    <button type="reset"> <img src="/Images/Reset2.jpg" height="40" width="40"></button>
+
+</form>
+        </body>
+</html>
